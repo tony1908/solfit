@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "solfitapp",
+    "slug": "solfitapp",
+    "scheme": "solfitapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.solfitapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.solfitapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "165d3eb3-5b25-41a1-a3b2-8cf02e73f818"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store"
+    ]
+  }
+}
